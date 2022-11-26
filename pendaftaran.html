@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font awesome Icon -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" rel="stylesheet">
+   
+    <!-- link css -->
+    <link href="assets/style1.css" rel="stylesheet">
+
+    <!-- link icon -->
+   <link rel="shortcut icon" href="assets/images/Logo_Dies_Natalis_ITTelkom_Surabaya_4th_Primary_Color-removebg-preview.png" type="image/x-icon">
+
+    <title>Dies Natalis ITTS</title>
+    
+</head>
+<body>
+    <!-- button rocket -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-rocket"></i></button>
+
+    <!-- Header -->
+    <div class="nav-container">
+        <header>
+            <label for="hamburger">&#9776;</label>
+            <input type="checkbox" id="hamburger"/>
+            <div class="logo">
+                <img src="assets/images/Logo_Dies_Natalis_ITTelkom_Surabaya_4th_Primary_Color-removebg-preview.png" alt="Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="agenda.html">Agenda</a></li>
+                    <li><a href="pendaftaran.html" class="active">Pendaftaran</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+    <br>
+    <br>
+
+    <!-- Hero -->
+    <div class="welcome">
+        <header>
+            <h1>Pendaftaran Dies Natalis 4</h1><hr>
+        </header>
+    </div>
+    <br>
+    <div class="container"> 
+        <div class="hero-container">
+            <section class="hero">
+                <div class="hero-image">
+                    <img src="assets/images/wlp.png" alt="">
+                </div>
+            </section>
+        </div>
+    </div>
+    <br>
+    <br>
+
+    <!-- Form Pendaftaran Rektor cup -->
+
+    <div class="blog-container">
+        <header>
+            <h1>Form Pendaftaran Rektor Cup 2022</h1>
+            <hr>
+            <p>Dies Natalis IT Telkom Surabaya</p>
+        </header>
+    </div>
+
+    <div class="formrccontainer"> 
+        <div class="formrc-container">
+            <section class="formrc">
+                <form action="" method="POST">
+                    <div>
+                        <p>
+                            <b>‼ OPEN REGISTRATION ‼</b>
+                            <br>
+                            <br>
+                            The Internal and External <b>Rektor Cup</b> is finally open the registration. Go register your team and be the winner ✨🏆. 
+                            
+                            <br>See you there. 🙌🏻
+                            <br>
+                            <br>#ITTSRC
+                        </p>
+                        <p><a href="assets/Surat Kesanggupan.docx"> Klik Link Berikut untuk mengakses Surat Kesanggupan</a></p>
+                    </div>
+                    <fieldset>
+                        <legend><b>Biodata</b></legend>
+                        <table>
+                            <tr>
+                                <td>Program Studi</td>
+                                <td>:</td>
+                                <td><input type="text" name="programstudi" size="20" placeholder="Nama Program Studi"></td></td>
+                            </tr>
+                            <tr>
+                                <td>Fakultas</td>
+                                <td>:</td>
+                                <td><input type="text" name="fakultas" size="20" placeholder="Nama Fakultas"></td></td>
+                            </tr>
+                            <tr>
+                                <td>Nama Pendaftar</td>
+                                <td>:</td>
+                                <td><input type="text" name="pendaftar" size="20" placeholder="Nama Anda"></td></td>
+                            </tr>
+                            <tr>
+                                <td>No Induk Mahasiswa (NIM) </td>
+                                <td>:</td>
+                                <td><input type="text" name="nim" size="20" placeholder="NIM Mahasiswa" ></td></td>
+                            </tr>
+                            <tr>
+                                <td>Nama Team</td>
+                                <td>:</td>
+                                <td><textarea name="textarea_form" cols="20" rows="5" placeholder="Jika tim lebih dari satu bisa memberikan nama yang berbeda"></textarea></td>
+                            </tr>
+                            <tr>
+                                <td>Rektor Cup</td>
+                                <td>:</td>
+                                <td>
+                                    <input type="radio" name="jk" value="jk1" id="jk1" checked><label for="jk1">Internal</label>
+                                    <input type="radio" name="jk" value="jk2" id="jk2"><label for="jk2">Eksternal</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Email</td>
+                                <td>:</td>
+                                <td><input type="email" name="email" size="20" placeholder="Email Anda"></td>
+                            </tr>
+                            <tr>
+                                <td>No. Hp</td>
+                                <td>:</td>
+                                <td><input type="text" name="no_hp" size="20" placeholder="No Hp Anda"></td>
+                            </tr>
+                        </table>
+                    </fieldset>
+                    <br>
+                    <fieldset>
+                        <legend><b>Kompetisi yang dipilih</b></legend>
+                        <table>
+                            <tr>
+                                <td>
+                                    <p><b>Sport</b></p>
+                                    <input type="checkbox" name="cb1" value="cb1" id="cb1"><label for="cb1">Futsal (Putra)</label>
+                                    <input type="checkbox" name="cb2" value="cb2" id="cb2"><label for="cb2">Basket (Putra)</label>
+                                    <input type="checkbox" name="cb3" value="cb3" id="cb3"><label for="cb3">Volley (Putra)</label>
+                                    <input type="checkbox" name="cb1" value="cb1" id="cb1"><label for="cb1">Badminton (Ganda Campuran)</label>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <p><b>ITTS Show</b></p>
+                                    <input type="checkbox" name="cb1" value="cb1" id="cb1"><label for="cb1">Vokal Solo</label>
+                                    <input type="checkbox" name="cb2" value="cb2" id="cb2"><label for="cb2">Band</label>
+                                    <input type="checkbox" name="cb3" value="cb3" id="cb3"><label for="cb3">Tari</label>
+                                    <input type="checkbox" name="cb1" value="cb1" id="cb1"><label for="cb1">Stand Up Comedy</label>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <p><b>Esport</b></p>
+                                    <input type="checkbox" name="cb1" value="cb1" id="cb1"><label for="cb1">Mobile Legend</label>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <p><b>Rektor Cup Eksternal</b></p>
+                                    <input type="checkbox" name="cb1" value="cb1" id="cb1"><label for="cb1">Esport (Valorant)</label>
+                                    <input type="checkbox" name="cb2" value="cb2" id="cb2"><label for="cb2">Photography</label>
+                                    <input type="checkbox" name="cb3" value="cb3" id="cb3"><label for="cb3">English Speech Competition</label>
+                                </td>
+                            </tr>
+                        </table>
+                    </fieldset>
+                    <p>
+                        <input type="reset" value="Reset">
+                        <input type="submit" value="Submit">
+                    </p>
+                </form>
+            </section>
+        </div>
+    </div>
+
+    <br>
+    <br>
+    
+    <!-- Form Pembelian Tiket Acara Puncak Diesnatalis -->
+    <div class="blog-container">
+        <header>
+            <h1>Form Pembelian Tiket Acara Puncak</h1>
+            <hr>
+            <p>Dies Natalis IT Telkom Surabaya</p>
+        </header>
+    </div>
+
+    <div class="formapcontainer"> 
+        <div class="formap-container">
+            <section class="formap">
+                <form action="" method="POST">
+                    <div>
+                        <p><b>[ Proudly Present To You ] </b></p>
+                        <p>‼TECHNOLOGIA ‼</p>
+                        <p> Special Perform by:
+                            <ul>
+                                <li> Guest Star</li>
+                                <li> ITTS Show</li>
+                                <li> ITTS Art</li>
+                            </ul>
+                        </p>
+                        <p>Many events in here like, Concert, Awarding night, and Food festival. Come and feel the moment.</p> 
+                        <p>See you there. 🙌🏻</p>
+                            #diesnatittelkomsby
+                        </p>
+                    </div>
+                    <fieldset>
+                        <legend><b>Biodata</b></legend>
+                        <table>
+                            <tr>
+                                <td>Nama Mahasiswa</td>
+                                <td>:</td>
+                                <td><input type="text" name="programstudi" size="20" placeholder="Nama Program Studi"></td></td>
+                            </tr>
+                            <tr>
+                                <td>Fakultas</td>
+                                <td>:</td>
+                                <td><input type="text" name="fakultas" size="20" placeholder="Nama Fakultas"></td></td>
+                            </tr>
+                            <tr>
+                                <td>No Induk Mahasiswa (NIM) </td>
+                                <td>:</td>
+                                <td><input type="text" name="nim" size="20" placeholder="NIM Mahasiswa" ></td></td>
+                            </tr>
+                            <tr>
+                                <td>Angkatan</td>
+                                <td>:</td>
+                                <td><input type="text" name="angkatan" size="20" placeholder="Angkatan" ></td></td>
+                            </tr>
+                            <tr>
+                                <td>Asal Kampus</td>
+                                <td>:</td>
+                                <td><input type="text" name="Asal Kampus" size="20" placeholder="Asal Kampus" ></td></td>
+                            </tr>
+                            <tr>
+                                <td>Email</td>
+                                <td>:</td>
+                                <td><input type="email" name="email" size="20" placeholder="Email Anda"></td>
+                            </tr>
+                            <tr>
+                                <td>No. Hp</td>
+                                <td>:</td>
+                                <td><input type="text" name="no_hp" size="20" placeholder="No Hp Anda"></td>
+                            </tr>
+                            <tr>
+                                <td>Asal Kampus</td>
+                                <td>:</td>
+                                <td>
+                                    <input type="radio" name="jk" value="jk1" id="jk1" checked><label for="jk1">Internal</label>
+                                    <input type="radio" name="jk" value="jk2" id="jk2"><label for="jk2">Eksternal</label>
+                                </td>
+                            </tr>
+                        </table>
+                    </fieldset>
+                    <br>
+                    <fieldset>
+                        <legend><b>Pembelian Tiket</b></legend>
+                        <table>
+                            <tr>
+                                <td>Jumlah Tiket</td>
+                                <td>:</td>
+                                <td><input type="text" name="jml_tiket" size="20"></td>
+                            </tr>
+                            <tr>
+                                <td>Jenis Tiket</td>
+                                <td>:</td>
+                                <td>
+                                    <input type="radio" name="jt" value="jt1" id="jt1" checked><label for="jt1">VIP</label>
+                                    <input type="radio" name="jt" value="jt2" id="jt2"><label for="jt2">Reguler</label>
+                                </td>
+                            </tr>
+                        </table>
+                    </fieldset>
+                    <p>
+                        <input type="checkbox" name="cb1" value="cb1" id="cb1"><label for="cb1">Saya Setuju dengan Syarat dan Ketentuan</label>
+                    </p>
+                    <p>
+                        <input type="reset" value="Reset">
+                        <input type="submit" value="Submit">
+                    </p>
+                </form>
+            </section>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer-container">
+        <div class="footer-menu">
+            <section>
+                <div class="disnat-container">
+                    <img src="assets/images/Logo_Dies_Natalis_ITTelkom_Surabaya_4th_Primary_Color-removebg-preview.png">
+                </div>
+                <h2>Dies Natalis 4</h2>
+                <p>Situs dies natalis Institut Teknologi Telkom Surabaya. Website ini diperuntukkan sebagai media komunikasi internal & eksternal</p>
+                <p>Acara ini diselenggarakan untuk Dies Natalis ke-empat Institut Teknologi Telkom 
+                    Surabaya,Tidak hanya bagi manusia, bertambahnya usia bagi Institusi pun juga menjadi 
+                    momentum munculnya harapan-harapan untuk organisasi tersebut dimasa 
+                    mendatang.</p>
+                <p></p>
+            </section>
+
+            <section>
+                <p>
+                    <h3>Fakultas</h3>
+                    <ul>
+                        <li>Fakultas Teknologi Informasi dan Bisnis</a></li>
+                        <li>Fakultas Teknologi Elektro dan Industri cerdas</a></li>
+                    </ul>
+                </p>
+
+                <p>
+                    <h3>Tautan Bermanfaat</h3>
+                    <ul>
+                        <li><a href="https://telkom.co.id/">Telkom Indonesia</a></li>
+                        <li><a href="https://ypt.or.id/">Yayasan Pendidikan Telkom</a></li>
+                        <li><a href="https://ittelkom-sby.ac.id/">ITTelkom Surabaya</a></li>
+                        <li><a href="https://smb.ittelkom-sby.ac.id/">Website SMB</a></li>
+                    </ul>
+                </p>
+            </section>
+
+            <section>
+                <h3>Info Kontak</h3>
+                <p>
+                    <ul>
+                        <li><b>Alamat :</b><br>Jl. Ketintang No.156, Surabaya, Jawa Timur 60231 </li>
+                        <br>
+                        <li><b>Telepon:</b><br><a href="tel:+62 31 8280800">+62 31 8280800</a></li>
+                        <br>
+                        <li><b>Email :</b><br><a href="is@ittelkom-sby.ac.id">@ittelkom-sby.ac.id</a></li>
+                    </ul>
+                </p>
+
+                <p>
+                    <h3>Media Sosial</h3>
+                    <ul>
+                        <li><a href="https://www.instagram.com/diesnat.ittelkomsby/"><i class="fab fa-instagram fa-lg"></i> @diesnat.ittelkomsby </a></li>
+                    </ul>
+                </p>
+            </section>
+        </div>
+        <hr>
+        <div class="footer-copyright">
+            <div>
+                <p><small>&copy; Build with ♥ by 1204210001 PUTRI ANGGIYARANI</small></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JS Internal -->
+    <script>
+        let mybutton = document.getElementById("myBtn");
+
+        // ketika user scroll halaman ke bawah sejauh 20px maka akan muncul button rocket
+        window.onscroll = function () {
+        scrollFunction();
+        };
+
+        function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+        }
+
+        // ketika user meng-klik button rocket, maka halaman akan kembali keatas
+        function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+        }
+    </script>
+</body>
+</html>

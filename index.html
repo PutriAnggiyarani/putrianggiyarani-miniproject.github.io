@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+   <!-- Font awesome Icon -->
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" rel="stylesheet">
+   
+   <!-- link css -->
+   <link href="assets/style1.css" rel="stylesheet">
+
+    <!-- link icon -->
+   <link rel="shortcut icon" href="assets/images/Logo_Dies_Natalis_ITTelkom_Surabaya_4th_Primary_Color-removebg-preview.png" type="image/x-icon">
+   
+   <style>
+    /* Slideshow Open PO Marchandise */
+    .mySlides {
+            display: none
+        }
+
+        img {
+            vertical-align: middle;
+            border-radius: 25px;
+        }
+
+        /* Slideshow container */
+        .slideshow-container {
+            max-width: 50%;
+            position: relative;
+            margin: auto;
+            
+        }
+
+        /* Next & previous buttons */
+        .prev,
+        .next {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            width: auto;
+            padding: 16px;
+            margin-top: -22px;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            transition: 0.6s ease;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+        }
+
+        /* Position the "next button" to the right */
+        .next {
+            right: 0;
+            border-radius: 3px 0 0 3px;
+        }
+
+        /* On hover, add a black background color with a little bit see-through */
+        .prev:hover,
+        .next:hover {
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+
+
+
+        /* The dots/bullets/indicators */
+        .dot {
+            cursor: pointer;
+            height: 15px;
+            width: 15px;
+            margin: 0 2px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+            transition: background-color 0.6s ease;
+        }
+
+        .activee,
+        .dot:hover {
+            background-color: #717171;
+        }
+
+        /* Fading animation */
+        .fade{
+            animation-name: fade;
+            animation-duration: 1.5s;
+        }
+        .mySlides_fade img{
+            width: 100%;
+            height: 400px;
+        }
+
+   </style>
+
+    <title>Dies Natalis ITTS</title>
+</head>
+<body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-rocket"></i></button>
+    <!-- Header -->
+    <div class="nav-container">
+        <header>
+            <label for="hamburger">&#9776;</label>
+            <input type="checkbox" id="hamburger"/>
+            <div class="logo">
+                <img src="assets/images/Logo_Dies_Natalis_ITTelkom_Surabaya_4th_Primary_Color-removebg-preview.png" alt="Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="agenda.html">Acara</a></li>
+                    <li><a href="pendaftaran.html">Pendaftaran</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+    <br>
+    <br>
+
+    <!-- Hero -->
+    <div class="welcome">
+        <header>
+            <h1>Welcome to Dies Natalis 4 <br> IT Telkom Surabaya</h1><hr>
+        </header>
+    </div>
+    <br>
+    <div class="container"> 
+        <div class="hero-container">
+            <section class="hero">
+                <div class="hero-image">
+                    <img src="assets/images/wlp.png" alt="">
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <br>
+    <br>
+
+    <!-- Judul section -->
+    <div class="blog-container">
+        <header>
+            <h1>Selayang Pandang</h1>
+            <hr>
+            <p>Dies Natalis IT Telkom Surabaya</p>
+        </header>
+    </div>
+
+    <!-- selayang pandang -->
+    <div class="selpan-container">
+        <section class="selpan">
+            <div class="selpan-text">
+                <p><img src="https://is.ittelkom-sby.ac.id/wp-content/uploads/2022/02/Group-5-2-1-Greetings-Icon-Circle.svg"></p>
+                <h1>Dies Natalis</h1>
+                <p> Seiring dengan pertambahan usia Institut Teknologi Telkom Surabaya (ITTS) telah memasuki tahun ke-4, ITTS sudah menjadi kampus yang maju dan berkembang pesat, serta menjadi universitas yang mulai tumbuh dan mengarah pada globalisasi menyongsong revolusi industri 4.0.</p>
+                <p>Sesuai dengan tema dies natalis tahun ini, yaitu “Striving For SUstainable Green”. 
+                    Peringatan Dies Natalis ke-4 tahun 2022 ini tidak hanya menjadi ajang seremonial rutin tahunan saja, akan tetapi diharapkan menjadi tonggak awal agar menjadi lebih maju dan baik kedepannya.</p>
+            </div>
+            <div class="selpan-video">
+                <iframe width="500" height="320" src="https://www.youtube.com/embed/bboTVfT1NWY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </section>
+    </div>
+
+    <!-- Waktu -->
+    <div class="waktu-container">
+        <div class="waktu-menu">
+            <section>
+                <strong>
+                    <p>
+                        <h2>00</h2>
+                    </p>
+                    <p>Days</p>
+                </strong>
+            </section>
+            
+            <section>
+                <p>
+                    <h2>:</h2>
+                </p>
+            </section>
+            <section>
+                <strong>
+                    <p>
+                        <h2>00</h2>
+                    </p>
+                    <p>Hours</p>
+                </strong>
+            </section>
+            <section>
+                <p>
+                    <h2>:</h2>
+                </p>
+            </section>
+            <section>
+                <strong>
+                    <p>
+                        <h2>00</h2>
+                    </p>
+                    <p>Minutes</p>
+                </strong>
+            </section>
+            <section>
+                <p>
+                    <h2>:</h2>
+                </p>
+            </section>
+            <section>
+                <strong>
+                    <p>
+                        <h2>00</h2>
+                    </p>
+                    <p>Seconds</p>
+                </strong>
+        </section>
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <!-- Konsep Logo -->
+    <div class="blog-container">
+        <header>
+            <h1>Kosep Logo Dies Natalis ke - 4</h1>
+            <hr>
+        </header>
+    </div>
+    <br>
+    <div class="konlog-container">
+        <section class="konlog">
+            <div class="konlog-image">
+                <img src="assets/images/Logo Dies Natalis ITTelkom Surabaya 4th_Primary_Color.png" alt="">
+            </div>
+            <div class="konlog-text">
+                <p><img src="https://is.ittelkom-sby.ac.id/wp-content/uploads/2022/02/Group-5-2-1-Greetings-Icon-Circle.svg"></p>
+                <p>Diesnatalis ITTelkom Surabaya yang ke-4 mengusung tema “Striving For
+                    Sustainable Green” yang memiliki logo dengan gabungan dari angka 4 dan 
+                    (infinity)</p>
+                    <ul>
+                        <li>
+                            <b>Angka 4 = </b>Tersusun atas 3 helai daun yang melambangkan green innovation dan diesnatalis ITTELKOM SURABAYA
+                        </li>
+                        <li>
+                            <b>Segitiga = </b>Melambangkan keselarasan kinerja ekonomi melalui efisiensi dalam menggunakan bahan baku dan energi 
+                        </li>
+                        <li>
+                            <b>Infinity = </b>Konsep dari diesnatalis 4 yaitu To infinity and beyond bisa dimaknai 
+                            sebagai sebuah pemicu semangat bahwa kita harus selalu optimis, Tidak ada 
+                            Batasan ataupun ikatan yang dapat membelenggu kita , membatasi diri kita , 
+                            dan mematahkan semangat kita. Selalu ada asa didepan sana
+                        </li>
+                    </ul>
+            </div>
+        </section>
+    </div>
+
+    <br>
+    <br>
+
+    <!-- Rangkaian Acara -->
+    <div class="blog-container">
+        <header>
+            <h1>Rangkaian Acara</h1>
+            <hr>
+        </header>
+    </div>
+
+    <div class="rangcar-container">
+        <div class="rangcar-index">
+            <div class="rangcar">
+                <img class="rangcar-img" src="assets/images/rc.jpg" >
+                <div class="rangcar-txt">
+                    <h3>Rektor Cup 2022</h3>
+                    <a href="agenda.html" class="button">Selengkapnya</a>
+                    <br>
+                </div>
+            </div>
+
+            <div class="rangcar">
+                <img class="rangcar-img" src="assets/images/puncak.jpg" >
+                <div class="rangcar-txt">
+                    <h3>Acara Puncak</h3>
+                    <a href="agenda.html" class="button">Selengkapnya</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+
+    <!-- bagian slide show -->
+    <div class="blog-container">
+        <header>
+            <h1>Open PO Marchandise</h1>
+            <hr>
+        </header>
+    </div>
+
+    <br>
+    <br>
+
+    <div class="slideshow-container">
+        
+            <div class="mySlides_fade">
+                <img src="assets/images/open_merch.jpg" >
+            </div>
+    
+            <div class="mySlides_fade">
+                <img src="assets/images/merch 1.jpg" >
+            </div>
+    
+            <div class="mySlides_fade">
+                <img src="assets/images/merch2.jpg" >
+            </div>
+
+            <div class="mySlides_fade">
+                <img src="assets/images/merch3.jpg" >
+            </div>
+
+            <div class="mySlides_fade">
+                <img src="assets/images/merch4.jpg" >
+            </div>
+
+            <div class="mySlides_fade">
+                <img src="assets/images/merch5.jpg" >
+            </div>
+
+            <div class="mySlides_fade">
+                <img src="assets/images/merch6.jpg" >
+            </div>
+
+            <div class="mySlides_fade">
+                <img src="assets/images/merch7.jpg" >
+            </div>
+        
+            <div class="mySlides_fade">
+                <img src="assets/images/merch8.jpg" >
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer-container">
+        <div class="footer-menu">
+            <section>
+                <div class="disnat-container">
+                    <img src="assets/images/Logo_Dies_Natalis_ITTelkom_Surabaya_4th_Primary_Color-removebg-preview.png">
+                </div>
+                <h2>Dies Natalis 4</h2>
+                <p>Situs dies natalis Institut Teknologi Telkom Surabaya. Website ini diperuntukkan sebagai media komunikasi internal & eksternal</p>
+                <p>Acara ini diselenggarakan untuk Dies Natalis ke-empat Institut Teknologi Telkom 
+                    Surabaya,Tidak hanya bagi manusia, bertambahnya usia bagi Institusi pun juga menjadi 
+                    momentum munculnya harapan-harapan untuk organisasi tersebut dimasa 
+                    mendatang.</p>
+                <p></p>
+            </section>
+
+            <section>
+                <p>
+                    <h3>Fakultas</h3>
+                    <ul>
+                        <li>Fakultas Teknologi Informasi dan Bisnis</a></li>
+                        <li>Fakultas Teknologi Elektro dan Industri cerdas</a></li>
+                    </ul>
+                </p>
+
+                <p>
+                    <h3>Tautan Bermanfaat</h3>
+                    <ul>
+                        <li><a href="https://telkom.co.id/">Telkom Indonesia</a></li>
+                        <li><a href="https://ypt.or.id/">Yayasan Pendidikan Telkom</a></li>
+                        <li><a href="https://ittelkom-sby.ac.id/">ITTelkom Surabaya</a></li>
+                        <li><a href="https://smb.ittelkom-sby.ac.id/">Website SMB</a></li>
+                    </ul>
+                </p>
+            </section>
+
+            <section>
+                <h3>Info Kontak</h3>
+                <p>
+                    <ul>
+                        <li><b>Alamat :</b><br>Jl. Ketintang No.156, Surabaya, Jawa Timur 60231 </li>
+                        <br>
+                        <li><b>Telepon:</b><br><a href="tel:+62 31 8280800">+62 31 8280800</a></li>
+                        <br>
+                        <li><b>Email :</b><br><a href="is@ittelkom-sby.ac.id">@ittelkom-sby.ac.id</a></li>
+                    </ul>
+                </p>
+
+                <p>
+                    <h3>Media Sosial</h3>
+                    <ul>
+                        <li><a href="https://www.instagram.com/diesnat.ittelkomsby/"><i class="fab fa-instagram fa-lg"></i> @diesnat.ittelkomsby </a></li>
+                    </ul>
+                </p>
+            </section>
+        </div>
+        
+        <hr>
+        <div class="footer-copyright">
+            <div>
+                <p><small>&copy; Build with ♥ by 1204210001 PUTRI ANGGIYARANI</small></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JS internal -->
+    <script>
+        let mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () {
+        scrollFunction();
+        };
+
+        function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+        }
+    </script>
+    <script src="assets/slide.js">
+    </script>
+</body>
+</html>
